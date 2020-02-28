@@ -8,7 +8,7 @@ A set of FOSS applications to include in an AOSP
 - Etar
 - CalDAV/CardDAV Sync
 - Aurora Store*
-- Phonograph
+- Vinyl
 - QKSMS
 - OsmAnd
 - Simple Gallery
@@ -21,6 +21,10 @@ A set of FOSS applications to include in an AOSP
 - MicroG Services Framework Proxy*
 - FakeStore*
 - Bromite
+- Alarmio
+- Tusky
+- p≡p
+- Conversations
 
 ### Notes
 
