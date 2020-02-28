@@ -97,8 +97,8 @@ downloadFromFdroid at.bitfire.davdroid
 #downloadFromFdroid com.menny.android.anysoftkeyboard "LatinIME OpenWnn"
 #Play Store download
 downloadFromFdroid com.aurora.store
-#Phonograph
-downloadFromFdroid com.kabouzeid.gramophone "Eleven"
+#Vinyl
+downloadFromFdroid com.poupa.vinylmusicplayer "Eleven"
 #Alarmio
 downloadFromFdroid me.jfenn.alarmio "GoogleClock DeskClock"
 #Simple Gallery
@@ -130,12 +130,15 @@ rm -rf tmp/index.xml
 rm -rf tmp/index.jar
 #Web browser
 downloadFromBromite org.bromite.bromite "Browser2 QuickSearchBox Jelly"
-
+#Tusky Fediverse client
+downloadFromFdroid com.keylesspalace.tusky
+#p≡p Email
+downloadFromFdroid security.pEp "Email Exchange"
+#Conversations XMPP Client
+downloadFromFdroid eu.siacs.conversations
 
 #TODO: Some social network?
 #Facebook? Twitter? Reddit? Mastodon?
 echo >> apps.mk
 
 rm -Rf tmp
-
-
